@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'Impact',  sans-serif;
+  src: url(../fonts/impact.woff2);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -18,17 +23,18 @@ ul {
 }
 
 .header__background {
-  min-width: 1600px;
-  min-height: 800px;
+ 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  position: relative;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1220px;
+  padding: 0 10px;
   margin: 0 auto;
+  min-height: 100vh;
 }
 
 .header__menu {
@@ -66,37 +72,44 @@ ul {
 }
 
 .header__title {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Impact", sans-serif;
   font-weight: 400;
   color: black;
   text-align: center;
+  letter-spacing: 0.02em;
+  min-height: 82vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.header__title h1 {
+.title {
   font-size: 76px;
   padding-bottom: 10px;
 }
 
-.header__title h2 {
+.sub-title {
   font-size: 48px;
   padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  align-self: center;
 }
 
-.header__title h3 {
+.sub-title span {
   font-size: 34px;
   color: #9F6B08;
-  border-bottom: 1px solid black;
   padding-bottom: 10px;
+  display: block;
+  padding-top: 10px;
 }
 
-.header__title h4 {
+.text {
   padding-top: 10px;
-  font-size: 15.53px;
+  font-size: 16px;
+  color: #363636;
 }
 .headet-button{
-  display: flex;
-  justify-content: center;
   background-color: transparent;
-  /* margin: 410px 586px 30px 586px;
-  margin-top: 410px; */
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-self: center;
 }
