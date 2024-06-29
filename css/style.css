@@ -180,3 +180,27 @@ ul {
 .bolt{
   font-weight: 700;
 }
+
+.info-item-Calender{
+  display: flex;
+  justify-content: space-between;
+}
+.Calender-item-left{
+  width: 438px;
+}
+.Calender-title{
+  max-width: 438px;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.Calender-text{
+  max-width: 377px;
+  font-size: 14px;
+}
+.ul-inner{
+  display: flex;
+  justify-content: space-between;
+}
