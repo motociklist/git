@@ -180,3 +180,38 @@ ul {
 .bolt{
   font-weight: 700;
 }
+
+.info-item-Calender{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.Calender-title{
+  max-width: 438px;
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.Calender-text{
+  max-width: 377px;
+  font-size: 14px;
+}
+.Calender-item-right{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.Calender-ol{
+   display: flex;
+  justify-content: space-between;
+  padding: 10px 0; 
+  font-size: 14px;
+}
+.ul-inner li{
+  padding: 10px 10px 10px 0;
+}
+.ul-inner-end li{
+  padding: 10px 0;
+}
