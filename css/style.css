@@ -1,5 +1,5 @@
-@font-face{
-  font-family: 'Impact',  sans-serif;
+@font-face {
+  font-family: 'Impact', sans-serif;
   src: url(../fonts/impact.woff2);
 }
 
@@ -23,7 +23,7 @@ ul {
 }
 
 .header__background {
- 
+
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -77,6 +77,10 @@ ul {
   color: black;
   text-align: center;
   letter-spacing: 0.02em;
+
+}
+
+.main {
   min-height: 82vh;
   display: flex;
   flex-direction: column;
@@ -85,6 +89,7 @@ ul {
 .title {
   font-size: 76px;
   padding-bottom: 10px;
+
 }
 
 .sub-title {
@@ -107,9 +112,71 @@ ul {
   font-size: 16px;
   color: #363636;
 }
-.headet-button{
+
+.headet-button {
   background-color: transparent;
   margin-top: auto;
   margin-bottom: 30px;
   align-self: center;
+}
+
+/* info */
+
+.conteiner-info {
+  padding: 100px 153px 66px 152px;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.info-item-Team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-text {
+  max-width: 438px;
+  font-size: 14px;
+
+}
+
+.title-info {
+  font-weight: 300;
+  font-size: 32px;
+  padding-bottom: 30px;
+
+}
+
+.subtitle-info {
+  max-width: 354px;
+  padding-bottom: 30px;
+
+}
+
+.Cup-World_img {
+  height: 302px;
+}
+
+.info-item-Cup-World{
+  margin-bottom: 100px;
+}
+
+.title__Cup-World {
+  font-weight: 300;
+  font-size: 36px;
+  margin-bottom: 34px;
+}
+.text__Cup-World{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.item-Cup-World{
+  width: 438px;
+}
+
+.bolt{
+  font-weight: 700;
 }
