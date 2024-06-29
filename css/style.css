@@ -184,9 +184,8 @@ ul {
 .info-item-Calender{
   display: flex;
   justify-content: space-between;
-}
-.Calender-item-left{
-  width: 438px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .Calender-title{
   max-width: 438px;
@@ -200,7 +199,19 @@ ul {
   max-width: 377px;
   font-size: 14px;
 }
-.ul-inner{
-  display: flex;
+.Calender-item-right{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.Calender-ol{
+   display: flex;
   justify-content: space-between;
+  padding: 10px 0; 
+  font-size: 14px;
+}
+.ul-inner li{
+  padding: 10px 10px 10px 0;
+}
+.ul-inner-end li{
+  padding: 10px 0;
 }
