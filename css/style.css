@@ -122,8 +122,8 @@ ul {
 
 /* info */
 
-.conteiner-info {
-  padding: 100px 153px 66px 152px;
+.container-info {
+  padding: 0px 153px 0px 152px;
   font-family: "Roboto Condensed", sans-serif;
   line-height: 1.2;
   font-weight: 400;
@@ -141,10 +141,13 @@ ul {
 }
 
 .title-info {
+  padding-bottom: 30px;
+}
+
+.title-info__main {
   font-weight: 300;
   font-size: 32px;
-  padding-bottom: 30px;
-
+  text-transform: uppercase;
 }
 
 .subtitle-info {
@@ -157,26 +160,90 @@ ul {
   height: 302px;
 }
 
-.info-item-Cup-World{
+.info-item-Cup-World {
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
 .title__Cup-World {
-  font-weight: 300;
-  font-size: 36px;
   margin-bottom: 34px;
 }
-.text__Cup-World{
+
+.text__Cup-World {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
   margin-bottom: 30px;
 }
 
-.item-Cup-World{
+.item-Cup-World {
   width: 438px;
 }
 
-.bolt{
+.bolt {
   font-weight: 700;
+}
+
+.info-item-Calender {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.Calender-title {
+  max-width: 438px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.Calender-text {
+  max-width: 377px;
+  font-size: 14px;
+}
+
+.Calender-item-right {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.Calender-ol {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.ul-inner li {
+  padding: 10px 10px 10px 0;
+}
+
+.ul-inner-end li {
+  padding: 10px 0;
+}
+
+.info-trek {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.trek-text{
+  max-width: 434px;
+  padding-bottom: 250px;
+}
+
+.trek-title {
+  padding-top: 47px;
+  padding-bottom: 30px;
+}
+
+.trek-subtitle{
+  font-size: 14px;
+}
+
+.trekcr-img {
+  max-width: 750px;
+  padding-bottom: 90px;
+  padding-left: 150px;
 }
